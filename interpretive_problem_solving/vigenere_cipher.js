@@ -59,3 +59,11 @@ function vigenereEncrypt(plaintext, keyword) {
 }
 
 console.log(vigenereEncrypt("Pineapples don't go on pizzas!", 'meat'));
+
+console.log(vigenereEncrypt("Pineapples don't go on pizzas!", 'A'));
+
+console.log(vigenereEncrypt("Pineapples don't go on pizzas!", 'Aa'));
+
+console.log(vigenereEncrypt("Pineapples don't go on pizzas!", 'cab'));
+
+console.log(vigenereEncrypt('Dog', 'Rabbit'));
